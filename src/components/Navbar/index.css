@@ -1,0 +1,31 @@
+.NavMenu{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    
+}
+
+.NavTitle{
+    
+}
+
+.NavSections{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 33%;
+    :hover{
+        cursor: pointer;
+        color: yellow;
+    }
+    a.active{
+        color: blue;
+}
+}
+
+
+

@@ -1,0 +1,78 @@
+.contactPage{
+    flex: 1;
+    display:grid;
+    justify-items: center;
+    align-items: center;
+
+    width: 95%;
+    height: 100%;
+    margin: 10px;
+    grid-template-areas: 
+        'links box';
+}
+
+.contactForm{
+    grid-area: box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-items: center; */
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    padding: 5%;
+    column-gap: 20px;
+    row-gap: 30px;
+    height: auto;
+    width: 50%;
+    /* overflow: auto; */
+}
+.contactDetails{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#message{
+    height: 100%;
+}
+
+
+.contactLinks{
+    grid-area: links;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    width: 50%;
+    padding: 5%
+    
+}
+.contactPageTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-image: url('././'); */
+    background-size: cover;
+    background-image: linear-gradient(100deg, #2f2f2f, #7B886B);
+}
+.links{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: auto;
+    padding: 2%; 
+
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    /* padding: 5%; */
+    border-style: solid;
+    /* height: auto;
+    width: 33%; */
+}
+
