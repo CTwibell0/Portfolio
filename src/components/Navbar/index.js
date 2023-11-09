@@ -49,7 +49,7 @@ const Navbar = () => {
           to="portfolioPageTitle" 
           spy={true} 
           smooth={true} 
-          offset={-55} 
+          offset={10} 
           duration={500} 
           onSetActive={handleSetActive}
         >Portfolio</Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
           to="skillsPageTitle" 
           spy={true} 
           smooth={true} 
-          offset={-50} 
+          offset={10} 
           duration={500} 
           onSetActive={handleSetActive}
           >Skills
@@ -66,7 +66,7 @@ const Navbar = () => {
           to="contactPageTitle" 
           spy={true} 
           smooth={true} 
-          offset={-50} 
+          offset={10} 
           duration={500} 
           onSetActive={handleSetActive}
           >Contact
