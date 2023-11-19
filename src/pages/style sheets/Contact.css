@@ -1,31 +1,47 @@
-.contactPage{
-    flex: 1;
-    display:grid;
-    justify-items: center;
+.contactPageTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    padding: 2%;
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(100deg, #2f2f2f, #7B886B);
+}
 
-    width: 95%;
-    height: 100%;
-    margin: 10px;
-    grid-template-areas: 
-        'links box';
+.contactPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 65%;
+    width: 100%;
+}
+
+.contactLinks{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-color: black;
+    height: 40%;
+    width: 33%;
+    padding: 5%
+    
 }
 
 .contactForm{
-    grid-area: box;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-items: center; */
     justify-content: center;
     border-style: solid;
     border-color: black;
     padding: 5%;
     column-gap: 20px;
     row-gap: 30px;
-    height: auto;
-    width: 50%;
-    /* overflow: auto; */
+    height: 40%;
+    width: 33%;
 }
 .contactDetails{
     display:flex;
@@ -34,30 +50,12 @@
 }
 
 #message{
-    height: 100%;
+    height: 200%;
 }
 
 
-.contactLinks{
-    grid-area: links;
-    display:grid;
-    align-items: center;
-    justify-content: center;
-    border-style: solid;
-    width: 50%;
-    padding: 5%
-    
-}
-.contactPageTitle{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    /* background-image: url('././'); */
-    background-size: cover;
-    background-image: linear-gradient(100deg, #2f2f2f, #7B886B);
-}
+
+
 .links{
     display: flex; 
     justify-content: space-between;

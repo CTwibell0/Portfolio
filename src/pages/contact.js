@@ -30,21 +30,9 @@ const Contact = () => {
               className='logos'>
               <FontAwesomeIcon icon={faDiscord} size='3x'/>
             </a>
-            {/* <img src={LinkedInLogo} alt='LinkedIn' className='logos'></img>
-            <img src={DiscordLogo} alt='Discord' className='logos'></img>
-            <img src={GitHubLogo} alt='GitHub' className='logos'></img> */}
-            {/* <Link to='https://www.linkedin.com/in/collin-twibell/'>
-              LinkedIn
-            </Link>
-            <Link to='https://github.com/CTwibell0'>
-              Github
-            </Link>
-            <Link to='https://discord.com/channels/@me/collin.t'>
-              Discord
-            </Link> */}
           </div>
         </div>
-        <form className='contactForm'>
+        <form action='../components/Contact.php' className='contactForm' >
           <div className='contactDetails'>
             <label for='name'>Name:</label>
             <input type='text' id='name' name='name'></input>
@@ -55,9 +43,9 @@ const Contact = () => {
           </div>
           <div className='contactDetails'>
             <label for='message'>Message</label>
-            <input type='text' id='message' name='message'></input>
+            <input type='body' id='message' name='message' placeholder='Your message'></input>
           </div>
-          <button>submit</button>
+          <button type='submit'>Submit</button>
         </form>
       </div>
     </div>
